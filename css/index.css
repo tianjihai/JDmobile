@@ -1,0 +1,27 @@
+.layout{
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    background-color: black;
+    height: 1000px;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+
+}
+
+/*页面顶部内容*/
+.headerBox{
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    background-color: red;
+    height: 40px;
+}
