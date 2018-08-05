@@ -121,14 +121,14 @@
 
 /*导航栏*/
 .TopNav{
-    height: 150px;
+    height: 194px;
     width: 100%;
     margin-top: -10px;
-    padding: 0 3.125%;
-    background: #fff;
+    background: #ffffff;
     padding-top: 11px;
     z-index: 11;
     position: relative;
+    border: 1px solid black;
     border-radius: 15px 15px 0px 0px;
 }
 .TopNav ul{
@@ -136,7 +136,7 @@
 }
 .TopNav ul li{
     width: 25%;
-    height: 69px;
+    height: 90px;
     float: left;
 }
 .TopNav ul li a{
@@ -148,12 +148,12 @@
 }
 .TopNav ul li a img{
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 0 auto;
 }
 .TopNav ul li a p{
-    font-size: 12px;
+    font-size: 17px;
     color: #666;
     margin-top: 6px;
 }
