@@ -41,3 +41,8 @@ input,textarea{
     visibility: hidden;
     clear:both;
 }
+
+[class^="icon_"]{
+    background: url(../img/sprites.png) no-repeat;
+    background-size: 200px 200px;
+}
