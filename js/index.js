@@ -61,6 +61,24 @@ var secondKill = function(){
 
 
 $(document).ready(function () {
+
+    //轮播图片
+    var $li = $(".ul1>li");
+    var count = 0;
+
+    //默认自动轮播下一张图片
+    function lunbo() {
+        count++;
+        if(count === $li.length){
+            count = 0;
+        }
+        $li.eq(count).fadeIn(100).siblings().fadeOut(100);
+    }
+     setInterval(lunbo,1500);
+
+
+
+
     /*置顶图标实现置顶功能*/
     $(window).scroll(function(){
         if ($(window).scrollTop()>100){
